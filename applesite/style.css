@@ -108,6 +108,14 @@ a:hover {
   background-image: url("https://www.apple.com/v/home/s/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_medium.jpg");
 }
 
+.headline-img-macbookair {
+  background-image: url("https://www.apple.com/v/home/s/images/promos/macbook-air/macbook_air__knzp0i282eyy_medium.jpg");
+}
+
+.headline-img-one {
+  background-image: url("https://www.apple.com/v/home/s/images/promos/apple-one/tile__cauwwcyyn9hy_medium.jpg");
+}
+
 .headline-dark {
   background-color: #000000;
 }
@@ -120,4 +128,11 @@ a:hover {
   .headline {
     background-size: contain;
   }
+}
+
+.headline-50 {
+  width: 47%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px 20px;
 }
