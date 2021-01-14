@@ -68,6 +68,7 @@ a:hover {
   background-position-x: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #fbfbfd;
 }
 
 .headline h2 {
@@ -101,4 +102,22 @@ a:hover {
 
 .headline-img-iphone12 {
   background-image: url("https://www.apple.com/v/home/s/images/heroes/iphone-12/iphone_12_us__fo0stbby242m_medium.jpg");
+}
+
+.headline-img-iphone12pro {
+  background-image: url("https://www.apple.com/v/home/s/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_medium.jpg");
+}
+
+.headline-dark {
+  background-color: #000000;
+}
+
+.headline-dark h2, .headline-dark h3 {
+  color: #F5F5F7;
+}
+
+@media all and (min-width: 1050px) {
+  .headline {
+    background-size: contain;
+  }
 }
